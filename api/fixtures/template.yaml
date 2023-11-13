@@ -1,0 +1,76 @@
+- model: api.templatemodel
+  pk: 1
+  fields:
+    language_code: vi
+    name: Cavet mau cu (truoc)
+    template: {}
+    box: {"number": [[849, 522], [849, 600], [472, 600], [472, 522]]}
+    mode: 1
+    is_master: true
+    created_at: 2022-01-01 01:00:00+07
+
+- model: api.templatemodel
+  pk: 2
+  fields:
+    language_code: vi
+    name: Cavet mau cu (sau)
+    template: {}
+    box: {"name": [[446, 30], [446, 92], [0, 92], [0, 30]], "engine": [[900, 37], [900, 97], [680, 97], [680, 37]], "address": [[598, 124], [598, 187], [0, 187], [0, 124]], "chassis": [[900, 129], [900, 191], [681, 191], [681, 129]], "brand": [[390, 176], [390, 235], [223, 235], [223, 176]], "model_code": [[846, 185], [846, 236], [734, 236], [734, 185]], "color": [[348, 216], [348, 265], [196, 265], [196, 216]], "capital": [[845, 224], [845, 275], [734, 275], [734, 224]], "plate": [[488, 396], [488, 494], [0, 494], [0, 396]], "date": [[205, 557], [205, 600], [0, 600], [0, 557]], "group": [[[853, 176], [853, 276], [729, 276], [729, 176]]]}
+    mode: 1
+    is_master: true
+    created_at: 2022-01-01 01:00:00+07
+
+- model: api.templatemodel
+  pk: 3
+  fields:
+    language_code: vi
+    name: Cavet mau moi (truoc)
+    template: {}
+    box: {"number": [[752, 535], [752, 600], [463, 600], [463, 535]]}
+    mode: 1
+    is_master: true
+    created_at: 2022-01-01 01:00:00+07
+
+- model: api.templatemodel
+  pk: 4
+  fields:
+    language_code: vi
+    name: Cavet mau moi (sau)
+    template: {}
+    box: {"name": [[345, 28], [345, 89], [0, 89], [0, 28]], "address": [[566, 117], [566, 172], [0, 172], [0, 117]], "brand": [[370, 167], [370, 210], [224, 210], [224, 167]], "model_code": [[855, 174], [855, 221], [682, 221], [682, 174]], "engine": [[494, 202], [494, 244], [265, 244], [265, 202]], "chassis": [[607, 240], [607, 285], [286, 285], [286, 240]], "color": [[351, 278], [351, 317], [209, 317], [209, 278]], "plate": [[376, 422], [376, 500], [0, 500], [0, 422]]}
+    mode: 1
+    is_master: true
+    created_at: 2022-01-01 01:00:00+07
+
+- model: api.templatemodel
+  pk: 5
+  fields:
+    language_code: vi
+    name: Cavet oto (truoc)
+    template: {}
+    box: {"number": [[818, 517], [818, 598], [470, 598], [470, 517]]}
+    mode: 1
+    is_master: true
+    created_at: 2022-01-01 01:00:00+07
+
+- model: api.templatemodel
+  pk: 6
+  fields:
+    language_code: vi
+    name: Cavet oto (sau)
+    template: {}
+    box: {"name": [[434, 26], [434, 67], [0, 67], [0, 26]], "engine": [[899, 27], [899, 64], [731, 64], [731, 27]], "address": [[592, 89], [592, 127], [0, 127], [0, 89]], "chassis": [[900, 90], [900, 127], [674, 127], [674, 90]], "brand": [[367, 127], [367, 166], [223, 166], [223, 127]], "model_code": [[899, 129], [899, 160], [787, 160], [787, 129]], "type": [[326, 157], [326, 195], [177, 195], [177, 157]],"capacity": [[872, 159], [872, 196], [771, 196], [771, 159]], "color": [[352, 192], [352, 234], [203, 234], [203, 192]], "plate": [[398, 404], [398, 489], [0, 489], [0, 404]], "regis_date": [[186, 557], [186, 598], [0, 598], [0, 557]]}
+    mode: 1
+    is_master: true
+    created_at: 2022-01-01 01:00:00+07
+
+- model: api.templatemodel
+  pk: 7
+  fields:
+    language_code: vi
+    name: Hoa don visa
+    template: {"amount": ["vnd","und","tong cong","tong","teng","amount","the tin dung","the","tien thanh toan","thanh toan","tien"],"date": ["ngay", "kay", "gay", "ncay","date"], "time": ["gio", "time", "gid"]}
+    box: {}
+    mode: 2
+    is_master: true
+    created_at: 2022-01-01 01:00:00+07

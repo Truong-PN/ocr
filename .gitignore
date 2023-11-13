@@ -1,0 +1,35 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+*.sqlite3
+__pycache__/
+
+# Backup files #
+*.bak
+
+# pyenv
+.python-version
+
+# Environments
+.venv
+.venv.bak
+
+# sftp configuration file
+sftp-config.json
+
+# Visual Studio Code #
+.history
+.vscode
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# folder static
+images/**
+ocr/models/**
+template/*.jpg
+logs/**
+api/migrations/**
+!api/migrations/__init__.py

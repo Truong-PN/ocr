@@ -1,0 +1,51 @@
+{
+    "info": {
+        "_exporter_id": "17749968",
+        "_postman_id": "b8a6486e-9d12-4d49-b666-93fd69a7c97c",
+        "name": "ocr_v1",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "OCR",
+            "request": {
+                "body": {
+                    "formdata": [
+                        {
+                            "key": "template_id",
+                            "type": "text",
+                            "value": "1"
+                        },
+                        {
+                            "key": "image",
+                            "src": [
+                                "template/[1]_cavet_xe_may_mat_truoc(cu).jpg"
+                            ],
+                            "type": "file"
+                        }
+                    ],
+                    "mode": "formdata"
+                },
+                "header": [],
+                "method": "POST",
+                "url": {
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "path": [
+                        "api",
+                        "ocr",
+                        "v1"
+                    ],
+                    "port": "8000",
+                    "protocol": "http",
+                    "raw": "http://127.0.0.1:8000/api/ocr/v1"
+                }
+            },
+            "response": []
+        }
+    ]
+}

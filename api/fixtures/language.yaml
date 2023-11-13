@@ -1,0 +1,13 @@
+- model: api.languagemodel
+  pk: 1
+  fields:
+    language_code: vi
+    name: Vietnamese
+    created_at: 2022-01-01 01:00:00+07
+
+- model: api.languagemodel
+  pk: 2
+  fields:
+    language_code: en
+    name: English
+    created_at: 2022-01-01 01:00:00+07
